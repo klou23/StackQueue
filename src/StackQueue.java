@@ -1,3 +1,9 @@
+/**
+ * StackQueue.java
+ * Kevin Lou
+ * 2022/01/10
+ * Class that acts as a queue, implementing using 2 stacks
+ */
 import java.util.NoSuchElementException;
 
 public class StackQueue <T>{
@@ -7,6 +13,7 @@ public class StackQueue <T>{
 
     public StackQueue() {
         s = new Stack<>();
+        s2 = new Stack<>();
     }
 
     void enqueue(T element){
